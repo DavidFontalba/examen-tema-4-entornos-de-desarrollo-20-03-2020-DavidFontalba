@@ -20,6 +20,10 @@ enum Color {
  * @version 1
  */
 public class Coche extends Vehiculo {
+  /**
+   * Coche tiene los atributos de Vehiculo, además de
+   * cilindrada, que especifica la cilindrada del coche.
+   */
 	private int cilindrada;
 	protected Coche(int num_serie, int cilindrada, String fabricante, Color color) {
 		this.num_serie = num_serie;
